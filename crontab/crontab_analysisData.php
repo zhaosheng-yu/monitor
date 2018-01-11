@@ -12,7 +12,7 @@ $db = DB::getInstance();
 
 $db->use_db('monitor_read');
 
-while (1) {
+//while (1) {
     
     $monitorids = array(array('monitorid'=>1001, 'diffval'=>1));
 
@@ -48,7 +48,7 @@ while (1) {
             sendDingdingMsg($mid." notice");
         }
     }
-}
+//}
 
 function sendDingdingMsg($message) {
     $webhook = "https://oapi.dingtalk.com/robot/send?access_token=d1c055d0f53cbb97fdf29485b7627216cff9a6def2492fbe667ae56acdf42158";
