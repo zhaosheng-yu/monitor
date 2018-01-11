@@ -6,9 +6,9 @@
 * 后台(admin)
 #### <a name="1">上报接口(多语言版)</a>
 1. php版接口说明
-  * 接口文件：service/php/api/report.php
-  * 接口请求方式：http POST 提交
-  * 接口参数：sign(签名)、t(时间戳)、data(json数据包，参数格式说明例：{monitorid:123,time:1514190464,source:100})
+    * 接口文件：service/php/api/report.php
+    * 接口请求方式：http POST 提交
+    * 接口参数：sign(签名)、t(时间戳)、data(json数据包，参数格式说明例：{monitorid:123,time:1514190464,source:100})
 
 ### 数据表说明
 + 数据上报表t_report_业务号(如t_report_1001,1001为业务号);  
