@@ -45,7 +45,7 @@ $db->use_db('monitor_read');
 
         $diffnum = abs($nowNum - $oldNum);
         if ($diffnum > $minfo['diffval']) {
-            sendDingdingMsg($mid." notice");
+            //sendDingdingMsg($mid." notice");
         }
     }
 //}
