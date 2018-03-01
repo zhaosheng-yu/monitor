@@ -18,8 +18,8 @@
     *crontab/crontab_collectData.php,收集上报数据入库,脚本由定时任务或supervisor(守护进程)执行。
 
 #### 后台
-* 由beego搭建,源码地址：
-* 账号：adminmonitor，密码：admin321
+* 由beego搭建,源码地址：https://gitee.com/yumingyzs/monitoradmin
+* demo:http://47.93.198.181:8086/login , 账号：adminmonitor，密码：admin321
 
 **************************
 
